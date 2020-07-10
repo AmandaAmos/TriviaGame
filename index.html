@@ -1,22 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!--the in app css file-->
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-     <!-- Compiled and minified CSS -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-     <!-- Compiled and minified JavaScript -->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!--Jquery link-->
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-			  crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <title>
+        Monty Python Game
+    </title>
+</head>
 
-    </head>
 <body>
-    
+    <div class="containter">
+        <div class="header">
+            <div class="row">
+                <div class="col s12">
+
+                    <h1>Trivia Game</h1>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col s6">
+
+            </div>
+            <div id="gameRow">
+                <div class="col s6">
+                    <div id="startDiv">
+
+                        <a class="btn-floating btn-large pulse" id="startBtn"><i class="material-icons">go</i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="gameRow">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-md-offset-3" id="gameCol"></div>
+                <!--where each question is displayed-->
+                <div id="currentQuestion"></div>
+                <div id="timeLeft"></div>
+                <div class="question"></div>
+                <div class="answerList"></div>
+
+                <!--where each answer is displayed-->
+                <div id="message"></div>
+                <div id="correctedAnswer"></div>
+                <div id="gif"></div>
+                <div id="gifCaption"></div>
+
+                <!--where results are displayed-->
+                <div id="finalMessage"></div>
+                <div id="correctAnswers"></div>
+                <div id="incorrectAnswers"></div>
+                <div id="unanswered"></div>
+                <div id="startOverBtn"></div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Linking jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <!-- Linking my own JAVASCRIPT -->
+    <script type="javascript" src="./assets/javascript/app.js"></script>
+
 </body>
+
 </html>

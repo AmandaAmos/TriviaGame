@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
 
     //define variables
@@ -51,14 +52,14 @@ $(document).ready(function () {
             question: "What fruit do the French use in their taunts?",
             answer: ["Blueberry", "Crabapple", "Elderberry", "Oranges"],
             correct: "3",
-            image: (""),
+            image: ("./assets/images/elderberry"),
             answerText: "Your mother was a hamster and your father smelt of elderberries…"
 
         }, {
             question: "What animal forces the Knights to retreat?",
             answer: ["Fox", "Rabbit", "Boar", "Bear"],
             correct: "2",
-            image: (""),
+            image: ("./assets/images/rabbit"),
             answerText: "Brother Maynard - bring forth the holy hand grenade!",
 
         }, {
@@ -72,14 +73,14 @@ $(document).ready(function () {
             question: "Who is King Arthur's servant?",
             answer: ["Roger", "Patsy", "Galahad", "Guy"],
             correct: "1",
-            image: (""),
+            image: ("./assets/images/patsy"),
             answerText: "Come, Patsy",
 
         }, {
             question: "What is the first thing the Black Knight says to King Arthur?",
             answer: ["Halt!", "None Shall Pass.", "Danger Ahead.", "You Can't Pass."],
             correct: "1",
-            image: (""),
+            image: ("./assets/images/noneshallpass"),
             answerText: "Tis but a scratch.",
 
         }, {

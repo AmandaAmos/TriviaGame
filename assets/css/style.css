@@ -1,0 +1,17 @@
+.header {
+    background: center;
+    background-attachment: fixed;
+    background-image: url(/assets/css/image/filmposter.jpg);
+    text-align: center;
+}
+
+.startdiv {
+    object-position: right;
+}
+#startBtn {
+    text-align: center;
+    align-content: center;
+    object-position: right;
+    background-color: blueviolet;
+    
+}
