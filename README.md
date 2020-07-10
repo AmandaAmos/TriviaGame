@@ -8,7 +8,7 @@
   Materialize<br>
   Javascript</br>
   </p>
-  #### Go
+ #### Go
   <p> Click the Go button to enter the game.  Answer the questions to the best of your ability.</p>
   
   
